@@ -15,6 +15,16 @@
 #else:
 #    (rest of code)
 word = "hello" # This line will be removed once the list of words is incorporated.
+
+#R represents Raisa's feedback in comments
+
+#R: How are you planning on incorporating a list of words? Are you planning on using a word database? 
+#R: I don't know if this will help, but WordNet is a database that you could look into but I'm not sure how to use it here
+#R: here's a website that lists other word databases you could use so that you may not need to list out a bunch of words the 
+#   program needs to randomly select from
+#   You mentioned that this list would be used to verify if it's a valid word or not and I think that a databse would be able
+#   to help with that - but ask Professor Acacia Ackles to make sure this is an ok idea
+
 playing = True # The variable "playing" is set to "True".
 print("Welcome to Wordle!") # When the user begins playing, they are greeted by the program.
 while playing == True: # This only becomes false, breaking the loop, if the user inputs "no" to the question of if they want to play again.

@@ -17,8 +17,7 @@
 word = "hello" # This line will be removed once the list of words is incorporated.
 
 #R represents Raisa's feedback in comments
-
-#R: How are you planning on incorporating a list of words? Are you planning on using a word database? 
+ 
 #R: I don't know if this will help, but WordNet is a database that you could look into but I'm not sure how to use it here
 #R: here's a website that lists other word databases you could use so that you may not need to list out a bunch of words the 
 #   program needs to randomly select from

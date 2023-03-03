@@ -15,6 +15,7 @@
 #else:
 #    (rest of code)
 word = "hello" # This line will be removed once the list of words is incorporated.
+# Maybe add a list of words of your choosing and have the program pick one randomly when you begin a game.
 playing = True # The variable "playing" is set to "True".
 print("Welcome to Wordle!") # When the user begins playing, they are greeted by the program.
 while playing == True: # This only becomes false, breaking the loop, if the user inputs "no" to the question of if they want to play again.

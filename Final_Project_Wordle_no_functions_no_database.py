@@ -15,6 +15,18 @@
 #else:
 #    (rest of code)
 word = "hello" # This line will be removed once the list of words is incorporated.
+
+#R represents Raisa's feedback in comments
+ 
+#R:I don't know if this will help, but WordNet is a database that you could look into but I'm not sure how to use it here
+#R:here's a website that lists other word databases you could use so that you may not need to list out a bunch of words the 
+#program needs to randomly select from
+#You mentioned that this list would be used to verify if it's a valid word or not and I think that a databse would be able
+#to help with that - but ask Professor Acacia Ackles to make sure this is an ok idea
+#if you are planning on doing this, I would recommend using the pandas package because that's good for working with large databases like
+#this one
+#e.g. in line 7 you can write word_list = pd.read_csv("wordnet_database") 
+
 playing = True # The variable "playing" is set to "True".
 print("Welcome to Wordle!") # When the user begins playing, they are greeted by the program.
 while playing == True: # This only becomes false, breaking the loop, if the user inputs "no" to the question of if they want to play again.
@@ -76,3 +88,16 @@ while playing == True: # This only becomes false, breaking the loop, if the user
         else:
             print("Please answer yes or no:") # If neither "yes" nor "no" is given, the while loop continues, and the user is prompted again to answer "yes" or "no".
 print("Goodbye!") # After the user decides to stop playing, they are given a farewell.
+
+#R: your comments are clear
+#R: you said that you wanted to convert it to a format that includes more functions - can you explain what you mean by that?
+#the code is working pretty well without functions - other than the word database and the user input check, I think this
+#project is doing well and you could just use this as it is
+#I guess one thing you could do is define a function that takes in input from the word database and set that function to a variable name
+#e.g. def word():
+#      the code you have written in lines 7 and 8
+#then in line 17 you write word = word()
+#you could also have another function that checks the user input that would include the code from lines 9-14 
+# and then put all the code from 27-87 under a function then call the function at the end of the check function but I'm not sure 
+#if that would work 
+#you could also just indent/tab the code from lines 27-87 and put it as a huge chunk of code together after line 16
